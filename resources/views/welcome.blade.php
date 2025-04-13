@@ -62,9 +62,10 @@
 </head>
 <body>
 <div class="button-row">
-  <button onclick="window.location.href='about.html'">About Me</button>
-  <button>Projects</button>
-  <button>Contact</button>
+    <button onclick="window.location.href='{{ route('projects') }}'">Projects</button>
+    <button onclick="window.location.href='{{ route('about') }}'">About Me</button>
+  
+  <button onclick="window.location.href='{{ route('contact') }}'">Contact</button>
 </div>
 <div class="container">
   <div class="image-side">
